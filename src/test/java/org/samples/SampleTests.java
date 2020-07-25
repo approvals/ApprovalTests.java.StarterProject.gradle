@@ -1,20 +1,21 @@
 package org.samples;
 
-import static org.junit.Assert.assertEquals;
 
 import org.approvaltests.Approvals;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.sample.Person;
 
-public class SampleTests
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class SampleTests
 {
     @Test
-    public void testNormalJunit()
+    void testNormalJunit()
     {
         assertEquals(5, 5);
     }
     @Test
-    public void testWithApprovalTests()
+    void testWithApprovalTests()
     {
         Approvals.verify("Hello World");
     }
@@ -23,7 +24,7 @@ public class SampleTests
      *  This is only required if you want to use the VerifyAsJson.
      **/
     @Test
-    public void testJson()
+    void testJson()
     {
         Person hero = new Person("jayne", "cobb", true, 38);
         Approvals.verifyAsJson(hero);
