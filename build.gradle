@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.approvaltests:approvaltests:11.2.2")
+    testImplementation("com.approvaltests:approvaltests:12.4.1")
     testRuntimeOnly("com.google.code.gson:gson:2.8.6")
 
     testImplementation(platform("org.junit:junit-bom:5.7.1"))
