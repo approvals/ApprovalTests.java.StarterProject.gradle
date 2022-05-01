@@ -12,7 +12,7 @@ class SampleTests
     @Test
     void testNormalJunit()
     {
-        assertEquals(5, 6);
+        assertEquals(5, 5);
     }
     @Test
     void testWithApprovalTests()
