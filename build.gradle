@@ -10,7 +10,7 @@ dependencies {
     testImplementation("com.approvaltests:approvaltests:18.6.0")
     testRuntimeOnly("com.google.code.gson:gson:2.10.1")
 
-    testImplementation(platform("org.junit:junit-bom:5.9.2"))
+    testImplementation(platform("org.junit:junit-bom:5.9.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
     testImplementation("junit:junit:4.13.2")
