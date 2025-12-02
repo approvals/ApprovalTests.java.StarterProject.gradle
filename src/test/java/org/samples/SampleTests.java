@@ -2,6 +2,7 @@ package org.samples;
 
 
 import org.approvaltests.Approvals;
+import org.approvaltests.JsonApprovals;
 import org.junit.jupiter.api.Test;
 import org.sample.Person;
 
@@ -27,6 +28,6 @@ class SampleTests
     void testJson()
     {
         Person hero = new Person("jayne", "cobb", true, 38);
-        Approvals.verifyAsJson(hero);
+        JsonApprovals.verifyAsJson(hero);
     }
 }
