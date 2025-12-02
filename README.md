@@ -1,6 +1,6 @@
 # ApprovalTests.java.StarterProject.gradle
 
-[![Build Status](../../workflows/test/badge.svg?branch=master)](https://github.com/approvals/ApprovalTests.java.StarterProject.gradle/actions?query=test%3Amaster)
+[![Build Status](https://github.com/approvals/ApprovalTests.java.StarterProject.gradle/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/approvals/ApprovalTests.java.StarterProject.gradle/actions/workflows/test.yml)
 
 This is a starter project for:
 
