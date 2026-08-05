@@ -16,7 +16,7 @@ jobs:
         java: ['25']
     steps:
       - uses: actions/checkout@v7
-      - uses: gradle/actions/wrapper-validation@v6.2.0
+      - uses: gradle/actions/wrapper-validation@v6.3.0
       - uses: actions/cache@v6
         with:
           path: ~/.gradle/caches
